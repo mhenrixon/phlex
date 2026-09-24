@@ -420,7 +420,7 @@ class Phlex::SGML
 	private def __render_attributes__(attributes)
 		state = @_state
 		return unless state.should_render?
-		state.buffer << (Phlex::ATTRIBUTE_CACHE[attributes] ||= Phlex::SGML::Attributes.generate_attributes(attributes))
+		state.buffer << Phlex::ATTRIBUTE_CACHE.fetch(attributes) { Phlex::SGML::Attributes.generate_attributes(attributes) }
 	end
 
 	private_class_method def self.method_added(method_name)

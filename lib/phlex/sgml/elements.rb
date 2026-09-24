@@ -59,7 +59,7 @@ module Phlex::SGML::Elements
 						buffer << "<#{tag}"
 						begin
 							#{COMMA_SEPARATED_TOKENS[method_name]}
-							buffer << (Phlex::ATTRIBUTE_CACHE[attributes] ||= Phlex::SGML::Attributes.generate_attributes(attributes))
+							buffer << Phlex::ATTRIBUTE_CACHE.fetch(attributes) { Phlex::SGML::Attributes.generate_attributes(attributes) }
 						ensure
 							buffer << ">"
 						end
@@ -90,7 +90,7 @@ module Phlex::SGML::Elements
 						buffer << "<#{tag}"
 						begin
 							#{COMMA_SEPARATED_TOKENS[method_name]}
-							buffer << (::Phlex::ATTRIBUTE_CACHE[attributes] ||= Phlex::SGML::Attributes.generate_attributes(attributes))
+							buffer << ::Phlex::ATTRIBUTE_CACHE.fetch(attributes) { Phlex::SGML::Attributes.generate_attributes(attributes) }
 						ensure
 							buffer << "></#{tag}>"
 						end
@@ -152,7 +152,7 @@ module Phlex::SGML::Elements
 					buffer << "<#{tag}"
 					begin
 						#{COMMA_SEPARATED_TOKENS[method_name]}
-						buffer << (::Phlex::ATTRIBUTE_CACHE[attributes] ||= Phlex::SGML::Attributes.generate_attributes(attributes))
+						buffer << ::Phlex::ATTRIBUTE_CACHE.fetch(attributes) { Phlex::SGML::Attributes.generate_attributes(attributes) }
 					ensure
 						buffer << ">"
 					end
