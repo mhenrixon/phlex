@@ -1,0 +1,20 @@
+quickdraw/ractor.test.rb
+  s_b2ece0bcc7f2d2::t_20e798f0c4eb97 61-65,67,69-70,72-74,77-82
+  s_b2ece0bcc7f2d2::t_aa5e8a1afc5a95 68,71,76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e803f75e28dd44357edf92fc9fcbefda411fb1d8",
+  "prompts": {},
+  "sessions": {
+    "s_b2ece0bcc7f2d2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "13a3aeb5-4968-425a-a858-ce46384a2ff4",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "mhenrixon <mikael@mhenrixon.com>"
+    }
+  }
+}
