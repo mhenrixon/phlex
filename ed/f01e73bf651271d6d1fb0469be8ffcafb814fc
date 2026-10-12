@@ -1,0 +1,21 @@
+quickdraw/ractor.test.rb
+  s_b2ece0bcc7f2d2::t_5d85e71698b4c4 1-17,21-22,25-26,42-47,53-56,63-65
+  s_b2ece0bcc7f2d2::t_d4e34ba2d29e9f 18,27-29,31-32,35-37,40-41,48-52,57-62
+  s_b2ece0bcc7f2d2::t_79b0312eea5881 19-20,23-24,30,33-34,38-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "edf01e73bf651271d6d1fb0469be8ffcafb814fc",
+  "prompts": {},
+  "sessions": {
+    "s_b2ece0bcc7f2d2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "13a3aeb5-4968-425a-a858-ce46384a2ff4",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "mhenrixon <mikael@mhenrixon.com>"
+    }
+  }
+}
