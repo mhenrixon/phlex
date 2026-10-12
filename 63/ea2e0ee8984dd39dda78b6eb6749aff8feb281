@@ -1,0 +1,23 @@
+quickdraw/ractor.test.rb
+  s_b2ece0bcc7f2d2::t_f43ff90fe2102c 99,101-127
+  s_b2ece0bcc7f2d2::t_542470afe10386 100
+  s_b2ece0bcc7f2d2::t_731dc8ec14368b 19-25
+quickdraw/fifo.test.rb
+  s_b2ece0bcc7f2d2::t_ca0c683c5bb9b2 99-117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "63ea2e0ee8984dd39dda78b6eb6749aff8feb281",
+  "prompts": {},
+  "sessions": {
+    "s_b2ece0bcc7f2d2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "13a3aeb5-4968-425a-a858-ce46384a2ff4",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "mhenrixon <mikael@mhenrixon.com>"
+    }
+  }
+}
