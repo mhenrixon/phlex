@@ -1,0 +1,29 @@
+lib/phlex/html.rb
+  s_33d82332e29d0a::t_29f2640460ca26 61,69,90
+quickdraw/fifo.test.rb
+  s_33d82332e29d0a::t_29f2640460ca26 30-50
+lib/phlex/svg.rb
+  s_33d82332e29d0a::t_29f2640460ca26 47,51
+lib/phlex/sgml/elements.rb
+  s_33d82332e29d0a::t_29f2640460ca26 62,93,155
+lib/phlex/sgml.rb
+  s_33d82332e29d0a::t_29f2640460ca26 423
+lib/phlex/fifo.rb
+  s_33d82332e29d0a::t_29f2640460ca26 26-37,39-40,42-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "de456ce754795523fb4f030de6087c857b61c21d",
+  "prompts": {},
+  "sessions": {
+    "s_33d82332e29d0a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b08c6a3d-a3e8-43e9-87a7-6253f2ad7176",
+        "model": "unknown"
+      },
+      "human_author": "mhenrixon <mikael@mhenrixon.com>"
+    }
+  }
+}

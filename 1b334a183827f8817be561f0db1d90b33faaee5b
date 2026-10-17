@@ -1,0 +1,22 @@
+lib/phlex/sgml/attributes.rb
+  s_33d82332e29d0a::t_8ba5114eed967e 22,135
+  s_33d82332e29d0a::t_63e789ea6df4ec 185-189
+  s_33d82332e29d0a::t_f6da0ef050a0fb 32-34,72,103,150-152,230-231
+  s_33d82332e29d0a::t_f69e94c56831d1 14,30,73-77,79,81,85,107,148,179-184,190-191,233,235,270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1b334a183827f8817be561f0db1d90b33faaee5b",
+  "prompts": {},
+  "sessions": {
+    "s_33d82332e29d0a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b08c6a3d-a3e8-43e9-87a7-6253f2ad7176",
+        "model": "unknown"
+      },
+      "human_author": "mhenrixon <mikael@mhenrixon.com>"
+    }
+  }
+}

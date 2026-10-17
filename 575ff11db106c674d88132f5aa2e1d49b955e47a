@@ -1,0 +1,9 @@
+lib/phlex.rb
+  ai_agent 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "575ff11db106c674d88132f5aa2e1d49b955e47a",
+  "prompts": {}
+}

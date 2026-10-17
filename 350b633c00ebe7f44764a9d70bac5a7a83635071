@@ -1,0 +1,19 @@
+quickdraw/sgml/element_registry.test.rb
+  s_b2ece0bcc7f2d2::t_a3dace6e300ff1 1-63,65-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "350b633c00ebe7f44764a9d70bac5a7a83635071",
+  "prompts": {},
+  "sessions": {
+    "s_b2ece0bcc7f2d2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "13a3aeb5-4968-425a-a858-ce46384a2ff4",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "mhenrixon <mikael@mhenrixon.com>"
+    }
+  }
+}
